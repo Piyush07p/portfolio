@@ -2,7 +2,8 @@ import './App.css';
 import './css/skills.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React,{useEffect} from "react";
+import skdata from './skilldata.js'
+import React,{useEffect,useState} from "react";
 
 function Skills(){
 
@@ -12,49 +13,40 @@ function Skills(){
             duration:1000,
         });
       }, [])
-
+      const[skill,setSkill]=useState(skdata.skills);
 
     return(
         <section id="section2" >
              <div className="sec2-div">
                    <h1 className=" sec2-h1">Skill set</h1>
                    <div className="col" data-aos="fade-up" >
-                        <div className="row1" >
-                            <h1>Programming languages</h1>
-                            <ul>
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                            </ul>
-                        </div>
-                        <div className="row2" >
-                            <h1> Web technology</h1>
-                            <ul>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>javascript</li>
-                                <li>node.js</li>
-                                <li>express.js</li>
-                            </ul>
-                        </div>
-                            <div className="row1" >
-                        <h1>Database</h1>
-                        <ul>
-                            <li>mysql</li>
-                            <li>mongodb</li>
-                        </ul>
-    
-                        </div>
-                            <div className="row2" >
-                            <h1>Tools</h1>
-                          <ul>
-                          
-                                <li>figma</li>
-                                <li>git</li>
-                                <li>linux</li>
-                          </ul>
-                        </div>
+                       {
+                           skill.map((elem)=>{
+                               return(
+                                   <>
+                                       <div className="row1" >
+                                           <div className="inner-box">
+                                               <div className="card-front">
+                                                   <h1>{elem.title}</h1>
+                                                   <center>
+                                                       <img className="skill-logo" width="40rem" src={elem.img} />
+                                                   </center>
+                                               </div>
+                                               <div className="card-back">
+                                                   <ul>
+                                                       <li>{elem.arr[0]}</li>
+                                                       <li>{elem.arr[1]}</li>
+                                                       <li>{elem.arr[2]}</li>
+                                                       <li>{elem.arr[3]}</li>
+                                                       <li>{elem.arr[4]}</li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </>
+                               )
+                           })
+                       }
 
                    </div>
 

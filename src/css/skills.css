@@ -2,9 +2,7 @@
     width: 100%;
     padding: 3rem 0rem;
 }
-.sec2-div{
-    
-}
+
 .sec2-h1{
     text-align: center;
     color: #fff;
@@ -13,11 +11,11 @@
 }
 .sec2-h1::after{
         content: '';
-        width:100%;
+        width:8%;
         height:2px;
-        background:greenyellow ;
+        background:greenyellow;
         position: absolute;
-        left: 0;
+        left: 46%;
         bottom: -1px;
 
 }
@@ -35,42 +33,68 @@
     width: 14rem;
     height: 11rem;
     margin: 3rem 2rem;
-    box-shadow: 1px 2px 5px #fff;
+    
     cursor: pointer;
+    perspective: 1000px;
     transition: all 0.5s ease;
 
 }
-.row1:hover{
-    transform: translateY(-6px);
+.inner-box{
+    position: relative;
+    box-shadow: -4px -2px 12px black;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+ .card-front,.card-back{
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+
+}
+.card-front{
+    background-color: rgb(57, 131, 109);
+    color: #fff;
+}
+
+.skill-logo{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+
+
+}
+.card-back{
+    background-color: rgb(0, 107, 36);
+    transform: rotateX(180deg);
+    color: black;
+}
+.card-back ul li{
+    border:1px solid black;
+    margin:1px;
+    border-radius: 2px;
+    padding: 0 1rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+.row1:hover .inner-box{
+    transform: rotateX(-180deg);
 }
 .row1 h1{
     text-align: center;
-    font-size: 1.1rem;
+    margin:1rem 0;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 .row1 ul{
     padding: 2rem;
+    list-style: none;
 }
 
-.row2{
-    width: 14rem;
-    height: 11rem;
-    margin: 1rem 2rem;
-    box-shadow: 1px 2px 5px #fff;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
 
-.row2:hover{
-    transform: translateY(-6px);
-}
 
-.row2 ul{
-    padding: 2rem;
-}
-.row2 h1{
-    text-align: center;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-}
 

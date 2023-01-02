@@ -1,7 +1,6 @@
 #section5{
     width: 100%;
-    /* height: 70vh; */
-    /* box-sizing: border-box; */
+   padding-top: 3rem;
 }
 
 .sec5-cont{
@@ -71,7 +70,7 @@
     height: 2.5rem;
     margin: 0.6rem 1rem;
     color: #fff;
-    border:none;
+    border:none ;
     background-color: rgb(90, 90, 105);
     padding-left: 1rem;
 }
@@ -90,7 +89,7 @@
     width: 6rem;
     height: 2.5rem;
     color: #fff;
-    background-color: rgb(37, 57, 88);
+    background-color: #669B4A;
     margin: 0.4rem 1rem;
     border:none;
     cursor: pointer;
@@ -101,7 +100,7 @@
 .footer{
     background-color: rgb(56, 41, 70);
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     color: #fff;
     padding-top: 1rem;
 
