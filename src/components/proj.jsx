@@ -17,8 +17,13 @@ export default function Proj(props){
                            focussing on providing the placement related mcq quizes on various
                            subjects like reasoning, aptitude, coding etc.
                         </p>
-                       <a href={props.link} target="_blank"> <button>visit</button></a>
+                       
                  </div>
+                  <div className="visit">
+                            <a href={props.link} target="_blank">
+                                <button>visit</button>
+                             </a>
+                        </div>
             </div>
 
         </>

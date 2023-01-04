@@ -9,6 +9,26 @@ function App() {
     setsidebar((prevState)=>!prevState)
   }
 
+  let tablinks=document.getElementsByClassName('tab-links')
+  let tabcontents=document.getElementsByClassName('tab-contents')
+
+  // ----------opentab--------------
+
+  function opentab(tabname,linkname){
+    let tabl;
+    let tabc;
+       for(tabl of tablinks){
+         tabl.classList.remove("active-link")
+       }
+       for(tabc of tabcontents)
+       {
+         tabc.classList.remove("active-tab");
+       }
+       document.getElementById(linkname).classList.add("active-link")
+       document.getElementById(tabname).classList.add("active-tab");
+
+}
+
   return (
 
     <section id="section1" className="section1">
@@ -36,13 +56,41 @@ function App() {
           <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel from India</h1>
 
           <button>Download CV</button>
-          <button>Connect</button>
+    
         </div>
         <div>
         <div className="profile">
               <img src="./images/rephoto.jpeg"></img>
         </div>
         </div>
+      </div>
+      <div className="about_me">
+        <h1>About Me</h1>
+        <p>Hello I'm Piyush patel currently persuing B.tech in computer science engineering 
+          branch from Gyan ganga institute of Technology and Sciences, Jabalpur.
+          I am a web developer with a tremendous knowledge of frontend development.
+
+        </p>
+          <div className="tab-titles ">
+            <p className="tab-links active-link" id="link1" onClick={()=>opentab('education','link1')}>Education</p>
+            <p className="tab-links"  id="link2" onClick={()=>opentab('achievements','link2')}>Achievements</p>
+          </div>
+          <div className="tab-contents active-tab" id="education">
+                  <ul>
+                    <li><span>Class 10th</span><br/>percentage=88.8%</li>
+                    <li><span>Class 12th</span><br/>percentage=90.6%</li>
+
+                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=9.07</li>
+                  </ul>
+
+          </div>
+          <div className="tab-contents" id="achievements">
+                  <ul>
+                    <li><span>Leetcode</span><br/> 2star (Piyush07p)</li>
+                   
+                  </ul>
+
+          </div>
       </div>
      
     </section>

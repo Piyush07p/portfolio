@@ -71,8 +71,9 @@
     margin: 0.6rem 1rem;
     color: #fff;
     border:none ;
-    background-color: rgb(90, 90, 105);
+    background-color: rgb(177, 177, 207);
     padding-left: 1rem;
+    outline: none;
 }
 .right-div textarea{
     width: 90%;
@@ -82,7 +83,8 @@
     border:none;
     padding-left: 1rem;
     box-sizing: border-box;
-    background-color: rgb(90, 90, 105);
+    background-color: rgb(177, 177, 207);
+    outline: none;
 
 }
 .right-div button{
@@ -95,7 +97,9 @@
     cursor: pointer;
     letter-spacing: 1px;
 } 
-
+.right-div button:hover{
+    background-color:#71aa52 ;
+}
 
 .footer{
     background-color: rgb(56, 41, 70);

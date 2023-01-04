@@ -10,7 +10,7 @@
             id:2,
             title:'Web technology',
             img:'/images/weblogo.png',
-            arr:["Html","Css","Javascript","Node.ja","Express.js"]
+            arr:["Html","Css","Javascript","Node.js","Express.js"]
         },
         {
             id:3,
@@ -23,7 +23,7 @@
             id:4,
             title:'Library & Framework',
             img:'/images/react.png',
-            arr:["React","Tailwind css","Bootstrap"]
+            arr:["React.js","Tailwind css","Bootstrap"]
         },
         {
             id:5,

@@ -15,7 +15,7 @@ function Cert() {
       
         return (
                 <section data-aos="fade-up" id="section3">
-                        <h1 className="section3-h1">CERTIFICATES</h1>
+                        <h1  className="section3-h1">CERTIFICATES</h1>
 
                         <div className="card_category">
                             <button onClick={()=> setItems(data.carrdData)}>All</button>
