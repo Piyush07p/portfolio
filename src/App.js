@@ -48,7 +48,7 @@ function App() {
           </ul>
          
         </nav>
-        <i onClick={togle}  className="fa-light fa-bars">open</i>   
+        <i onClick={togle}  className="fa-solid fa-bars-staggered"></i>   
       </div>
       <div className="info-container">
         <div className="info">
@@ -66,7 +66,7 @@ function App() {
       </div>
       <div className="about_me">
         <h1>About Me</h1>
-        <p>Hello I'm Piyush patel currently persuing B.tech in computer science engineering 
+        <p id="para">Hello I'm Piyush patel currently persuing B.tech in computer science engineering 
           branch from Gyan ganga institute of Technology and Sciences, Jabalpur.
           I am a web developer with a tremendous knowledge of frontend development.
 
