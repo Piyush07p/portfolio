@@ -67,7 +67,7 @@ function App() {
       <div className="about_me">
         <h1>About Me</h1>
         <p id="para">Hello I'm Piyush patel currently persuing B.tech in computer science engineering 
-          branch from Gyan ganga institute of Technology and Sciences, Jabalpur.
+          branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
           I am a web developer with a tremendous knowledge of frontend development.
 
         </p>

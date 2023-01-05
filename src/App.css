@@ -128,7 +128,7 @@ body{
 
 }
 .about_me h1{
-  color: #fff;
+
   font-size: 1.6rem;
 }
 .about_me #para{
@@ -201,7 +201,7 @@ body{
 
 .nav .sider{
      display: block;
-     background-color: rgb(67, 131, 131);
+     /* background-color: rgb(67, 131, 131); */
      position: fixed;
      top: 0;
      right: -45%;
@@ -213,7 +213,7 @@ body{
   }
   .nav .sider-open{
      display: block;
-     background-color: rgb(102, 94, 144);
+     background-color: #5e5e5e;
      position: fixed;
      top: 0;
      right: 0%;

@@ -16,7 +16,7 @@
             id:3,
             title:'Database',
             img:'/images/dblogo.jpg',
-            arr:["Mysql","Mongodb"]
+            arr:["Mysql","Oracle 10g","Mongodb"]
         },
       
         {

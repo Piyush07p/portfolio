@@ -15,7 +15,7 @@ function Cert() {
       
         return (
                 <section data-aos="fade-up" id="section3">
-                        <h1  className="section3-h1">CERTIFICATES</h1>
+                        <h1  className="section3-h1">Certificates</h1>
 
                         <div className="card_category">
                             <button onClick={()=> setItems(data.carrdData)}>All</button>
@@ -31,7 +31,7 @@ function Cert() {
                  const { id,img, title } = elem;
             return (
                    <>
-                     <div className="cards">
+                     <div data-aos="zoom-in" className="cards">
                      <div className="card-components">
                        <div className="card-img">
                         <img width="30px" src={elem.img} />
@@ -39,7 +39,7 @@ function Cert() {
                     </div>
                       <h1>{elem.title}</h1>
                       <p>{elem.desc}</p>
-                      <a href=""> <button>visit</button></a>
+                      <a target="_blank" href={elem.link}> <button>visit</button></a>
                   </div>
                 </>
                  )
