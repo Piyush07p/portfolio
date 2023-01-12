@@ -44,7 +44,7 @@ export default function Contact(){
                         </div>
                     </div>
                     <div data-aos="fade-up" className="right-div">
-                       <form>
+                       <form action="https://formspree.io/f/xnqyqkgj" method="POST">
                        <input name="name" type="text" placeholder="your name" />
                         <br />
 
