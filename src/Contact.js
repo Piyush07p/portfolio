@@ -45,10 +45,10 @@ export default function Contact(){
                     </div>
                     <div data-aos="fade-up" className="right-div">
                        <form action="https://formspree.io/f/xnqyqkgj" method="POST">
-                       <input name="name" type="text" placeholder="your name" />
+                       <input name="name" type="text" required placeholder="your name" />
                         <br />
 
-                        <input name="email" type="email" placeholder="your email" />
+                        <input name="email" type="email" required placeholder="your email" />
                         <br />
                         <textarea name="tarea" placeholder="your message" type="text" />
                         <br />

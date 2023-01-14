@@ -11,11 +11,9 @@ export default function Proj(props){
                   </div>
                 </center>
                  <div data-aos="fade-up" className="pro_description">
-                        <h3>Prepuizz</h3>
+                        <h3>{props.h1}</h3>
                         <p>
-                           Prepquizz is placement preperation platform for college students
-                           focussing on providing the placement related mcq quizes on various
-                           subjects like reasoning, aptitude, coding etc.
+                          {props.para}
                         </p>
                        
                  </div>
