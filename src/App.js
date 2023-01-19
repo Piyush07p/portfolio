@@ -53,7 +53,7 @@ function App() {
       <div className="info-container">
         <div className="info">
           <p>web developer</p>
-          <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel from India</h1>
+          <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel student of CSE</h1>
 
           <button>Download CV</button>
     
@@ -66,9 +66,9 @@ function App() {
       </div>
       <div className="about_me">
         <h1>About Me</h1>
-        <p id="para">Hello I'm Piyush patel currently persuing B.tech in computer science engineering 
+        <p id="para"> Hi, I'm Piyush patel currently persuing B.tech in computer science engineering 
           branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
-          I am a web developer with a tremendous knowledge of frontend development.
+          I am a web dev enthusiast with a tremendous knowledge of frontend development.
 
         </p>
           <div className="tab-titles ">
@@ -87,7 +87,8 @@ function App() {
           <div className="tab-contents" id="achievements">
                   <ul>
                     <li><span>Leetcode</span><br/> 2star (Piyush07p)</li>
-                   
+                    <li><span>Hackerrank</span><br/> 4star(c++)</li>
+
                   </ul>
 
           </div>

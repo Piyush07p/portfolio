@@ -11,11 +11,8 @@ export default function Contact(){
                         <br/>
                         <br/>
                         <div data-aos="fade-up" className="contact">
-                            <span><i class="fa-solid fa-envelope"></i> </span>
-                            <span>piyushpatel27978@gmail.com</span>
-                            <br/>
-                           
-                            <br/>
+                            {/* <span><i class="fa-solid fa-envelope"></i> </span>
+                            <span>piyushpatel27978@gmail.com</span> */}
                             <br/>
                             <br/>
                             <div className="social">
@@ -58,8 +55,8 @@ export default function Contact(){
                 </div>
 
                 <footer className="footer">
-    
-                    <p>Copyright @ 2022 Made with love by Piyush Patel</p>
+                            
+                    <p>Copyright &copy;  2023 Made with <i style={{color:"red"}} class="fa-solid fa-heart"></i> by Piyush Patel</p>
                 </footer>
 
             </section>

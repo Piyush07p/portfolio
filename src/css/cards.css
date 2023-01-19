@@ -101,6 +101,14 @@
 
   /* ----------------------------media-query---------------------------- */
 
+  @media  screen and (max-width:585px) {
+    
+    .card_category button{
+      width: 6.3rem;
+      margin: 1rem;
+      font-size: 0.6rem;
+    }
+}
 @media  screen and (max-width:450px) {
     .cards{
         width: 16rem;
@@ -108,5 +116,15 @@
 
     .card-components{
         width: 16rem;
+    }
+    
+.card_category{
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}
+    .card_category button{
+      width: 5.2rem;
+      margin: 1rem ;
+      font-size: 0.5rem;
     }
 }
