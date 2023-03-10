@@ -80,7 +80,7 @@ function App() {
                     <li><span>Class 10th</span><br/>percentage=88.8%</li>
                     <li><span>Class 12th</span><br/>percentage=90.6%</li>
 
-                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=9.07</li>
+                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.82</li>
                   </ul>
 
           </div>
