@@ -28,7 +28,7 @@ export default function Contact(){
                                     <i class="fa-brands fa-linkedin"></i>
                                 </a>
 
-                                <a target="_blank" href="https://www.instagram.com/piyush_.patel_07">
+                                <a target="_blank" href="https://www.instagram.com/__piyush.py__">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
                                 <a target="_blank" href="https://www.github.com/Piyush07p">

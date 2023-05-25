@@ -106,7 +106,7 @@
     .card_category button{
       width: 6.3rem;
       margin: 1rem;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
 }
 @media  screen and (max-width:450px) {
@@ -123,8 +123,8 @@
   padding: 0 1.5rem;
 }
     .card_category button{
-      width: 5.2rem;
+      width: 5.4rem;
       margin: 1rem ;
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
 }

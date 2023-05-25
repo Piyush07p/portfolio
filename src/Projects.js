@@ -4,7 +4,7 @@ function Project(){
     return(
         <>
             <section id="section4"  >
-                <h1 className="sec4-h1">My project</h1>
+                <h1 className="sec4-h1">My projects</h1>
                 <div className="sec4-div">
                     <Proj h1="Prepquizz" img="images/preplogo.PNG" link="https://prepquizz.cyclic.app"
                     para=" Prepquizz is placement preperation platform for college students

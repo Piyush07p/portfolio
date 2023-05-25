@@ -18,7 +18,7 @@ function Skills(){
     return(
         <section id="section2" >
              <div className="sec2-div">
-                   <h1 className=" sec2-h1">Skill set</h1>
+                   <h1 className=" sec2-h1">Skill area</h1>
                    <div className="col" data-aos="fade-up" >
                        {
                            skill.map((elem)=>{

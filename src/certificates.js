@@ -22,7 +22,7 @@ function Cert() {
                             <button onClick={()=> filteritem('cisco')}>Cisco</button>
                             <button onClick={()=> filteritem('great-learning')} >Great Learning</button>
                             <button onClick={()=> filteritem('udemy')} >Udemy</button>
-                            <button onClick={()=> filteritem('coursera')} >Coursera</button>
+                            <button onClick={()=> filteritem('Aws')} >Aws</button>
                             <button onClick={()=> filteritem('others')} >Others</button>
                         </div>
          <div data-aos="fade-up" className="card_container">

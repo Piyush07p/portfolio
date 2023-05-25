@@ -3,8 +3,8 @@
         {
             id:1,
             title:'Programming languages',
-            img:'/images/codelogo.png',
-            arr:["c","c++","python","java"]
+            img:'/images/codelogo.jpg',
+            arr:["c","c++","python"]
         },
         {
             id:2,

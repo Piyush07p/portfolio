@@ -73,12 +73,12 @@ function App() {
         </p>
           <div className="tab-titles ">
             <p className="tab-links active-link" id="link1" onClick={()=>opentab('education','link1')}>Education</p>
-            <p className="tab-links"  id="link2" onClick={()=>opentab('achievements','link2')}>Achievements</p>
+            <p className="tab-links"  id="link2" onClick={()=>opentab('achievements','link2')}>Coding profile</p>
           </div>
           <div className="tab-contents active-tab" id="education">
                   <ul>
-                    <li><span>Class 10th</span><br/>percentage=88.8%</li>
-                    <li><span>Class 12th</span><br/>percentage=90.6%</li>
+                    <li><span>Class 10th (Nachiketa H.S. school)</span><br/>percentage=88.8%</li>
+                    <li><span>Class 12th (Nachiketa H.S. school)</span><br/>percentage=90.6%</li>
 
                     <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.82</li>
                   </ul>
@@ -86,7 +86,8 @@ function App() {
           </div>
           <div className="tab-contents" id="achievements">
                   <ul>
-                    <li><span>Leetcode</span><br/> 2star (Piyush07p)</li>
+                    <li><span>Leetcode</span><br/> 2.5star (220+ ques)  <a target="_blank" href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                    <li><span>GFG</span><br/>(150+) points</li>
                     <li><span>Hackerrank</span><br/> 4star(c++)</li>
 
                   </ul>

@@ -80,29 +80,29 @@ const data={
         },
         {
             id:10,
-            title:'Programming Essentials in c++',
-            category:'coursera',
-            img:'/images/Co-logo.jpg',
-            desc:'Coursera',
-            link:""
+            title:'Aws Cloud foundation',
+            category:'Aws',
+            img:'/images/cloud_aws.jpg',
+            desc:'Aws academy',
+            link:"https://drive.google.com/file/d/1AUWOURSLxpgKJm6vsgH7Tx8tGdhktJ7U/view?usp=drivesdk"
 
         },
         {
             id:11,
-            title:'Programming Essentials in c++',
-            category:'coursera',
-            img:'/images/Co-logo.jpg',
-            desc:'Coursera',
-            link:""
+            title:'Amcat test',
+            category:'others',
+            img:'/images/amcat_logo.jpg',
+            desc:'Amcat',
+            link:"https://drive.google.com/file/d/1JQqNl0vUbd2zOBJxx5wYaSDE4HvHNk9U/view?usp=drivesdk"
 
         },
         {
             id:12,
-            title:'Programming Essentials in c++',
+            title:'Redhat IT Aptitude Test',
             category:'others',
-            img:'/images/Co-logo.jpg',
-            desc:'Cisco netacad',
-            link:""
+            img:'/images/redhat_logo.jpg',
+            desc:'Redhat',
+            link:"https://drive.google.com/file/d/17iZCIOtx7pyyG0hVZRKToI6Qln_7P5ZL/view?usp=drivesdk"
 
         }
     ]
