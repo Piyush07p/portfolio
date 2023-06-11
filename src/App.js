@@ -87,7 +87,7 @@ function App() {
           <div className="tab-contents" id="achievements">
                   <ul>
                     <li><span>Leetcode</span><br/> 2.5star (220+ ques)  <a target="_blank" href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-                    <li><span>GFG</span><br/>(150+) points</li>
+                    <li><span>GFG</span><br/>(200+) points</li>
                     <li><span>Hackerrank</span><br/> 4star(c++)</li>
 
                   </ul>
