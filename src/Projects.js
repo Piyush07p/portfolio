@@ -11,14 +11,13 @@ function Project(){
                     focussing on providing the placement related mcq quizes on various
                     subjects like reasoning, aptitude, coding etc."
                     />
-
+                    <Proj  h1="brain games" para="Brain games is a platform which contains multiple games 
+                    helpful in brain training through memorization, visualization etc. " link="https://brain-games007.netlify.app/" />
                     <Proj h1="Box-Shadow-generator" para="Box shadow generator
                     is used set the shadow layout of the box and generates the code
                      of the related shadow
                     " link="https://box-shadow-genr.netlify.app/" 
                     />
-                    
-                    <Proj h1="coming soon" para="yet to come" />
                     <Proj h1="coming soon" para="yet to come" />
                 </div>
 
