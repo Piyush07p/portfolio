@@ -104,6 +104,14 @@ const data={
             desc:'Redhat',
             link:"https://drive.google.com/file/d/17iZCIOtx7pyyG0hVZRKToI6Qln_7P5ZL/view?usp=drivesdk"
 
+        },
+        {
+            id:13,
+            title:'CCNA-1',
+            category:'cisco',
+            img:'/images/cisco-logo.png',
+            desc:'Cisco netacad',
+            link:"https://drive.google.com/file/d/1KnoIB0pgyyqnuw531o5CO4sU2kJaJ_qL/view?usp=sharing"
         }
     ]
 }
