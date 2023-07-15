@@ -68,7 +68,9 @@ function App() {
         <h1>About Me</h1>
         <p id="para"> Hi, I'm Piyush patel currently persuing B.tech in computer science engineering 
           branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
-          I am a web dev enthusiast with a tremendous knowledge of frontend development.
+          I am a web dev enthusiast with a tremendous knowledge of frontend development
+         . My goal is to apply my skills and knowledge to create innovative
+           solutions that address real-world challenges and improve the lives of individuals and communities.
 
         </p>
           <div className="tab-titles ">
@@ -86,7 +88,7 @@ function App() {
           </div>
           <div className="tab-contents" id="achievements">
                   <ul>
-                    <li><span>Leetcode</span><br/> 2.5star (260+ ques)  <a target="_blank" href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                    <li><span>Leetcode</span><br/> 2.5star (270+ ques)  <a target="_blank" href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
                     <li><span>GFG</span><br/>(300+) points</li>
                     <li><span>Hackerrank</span><br/> 4star(c++)</li>
 

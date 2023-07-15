@@ -1,4 +1,7 @@
 #section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
     width: 100%;
     padding:2.5rem 0;
   }
@@ -9,7 +12,7 @@
   }
   
   .card_category {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -56,7 +56,7 @@ export default function Contact(){
 
                 <footer className="footer">
                             
-                    <p>Copyright &copy;  2023 Made with <i style={{color:"red"}} class="fa-solid fa-heart"></i> by Piyush Patel</p>
+                    <p style={{fontSize:"1rem"}}>Copyright &copy;  2023 Made  {/*<i style={{color:"red"}} class="fa-solid fa-heart"></i>*/} by Piyush Patel</p>
                 </footer>
 
             </section>
