@@ -36,8 +36,8 @@
 
 }
 .row1{
-    width: 14rem;
-    height: 11rem;
+    width: 18rem;
+    height: 12rem;
     margin: 3rem 2rem;
     cursor: pointer;
     perspective: 1000px;
@@ -51,7 +51,7 @@
     height: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
 
 }
  .card-front,.card-back{
@@ -97,6 +97,7 @@ backface-visibility: hidden;
     margin:1rem 0;
     font-size: 1rem;
     letter-spacing: 1px;
+    color: greenyellow;
 }
 .row1 ul{
     padding: 2rem;
