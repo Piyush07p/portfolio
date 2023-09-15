@@ -17,6 +17,11 @@ function Project(){
                     <Proj h1="Document-maker" img="images/doc_maker.jpeg" para="Document maker is a website helpful in making the templates of the resume ,applications etc.
                     " link="https://document-maker.netlify.app/" />
 
+                    <Proj h1="Photography website" img="images/srlogo.png" para="srphotography is a freelancing project developed using react.js for
+                     a client to showcase their photographic work and services.
+                    " link="https://srphotography.netlify.app/" 
+                    />
+
                     <Proj h1="Box-Shadow-generator" img="images/box_shad.jfif" para="Box shadow generator
                     is used to generate the shadow of the box with several controls and produces the code of the related shadow.
                     " link="https://box-shadow-genr.netlify.app/" 
