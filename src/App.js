@@ -29,6 +29,19 @@ function App() {
 
 }
 
+  function typer(){
+     let Text=document.querySelector('.homePara')
+        setTimeout(()=>{
+          Text.textContent="Student"
+      },0)
+      setTimeout(()=>{
+          Text.textContent="Web developer"
+      },6000)
+      
+    }
+    typer()
+    setInterval(typer,12000)
+
   return (
 
     <section id="section1" className="section1">
@@ -52,7 +65,7 @@ function App() {
       </div>
       <div className="info-container">
         <div className="info">
-          <p>web developer</p>
+         <p> <span className='homePara'>web developer</span></p>
           <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel student of CSE</h1>
 
           <button>Download CV</button>
