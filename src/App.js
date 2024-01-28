@@ -45,7 +45,7 @@ function App() {
   return (
 
     <section id="section1" className="section1">
-      <div className="container">
+      <div className="navContainer">
         <div className="portlogo">
           <h1>Portfolio</h1>
         </div>
@@ -61,7 +61,7 @@ function App() {
           </ul>
          
         </nav>
-        <i onClick={togle}  className="fa-solid fa-bars-staggered"></i>   
+        <i onClick={togle}   className="fa-solid fa-bars-staggered"></i>   
       </div>
       <div className="info-container">
         <div className="info">
@@ -101,8 +101,8 @@ function App() {
           </div>
           <div className="tab-contents" id="achievements">
                   <ul>
-                    <li><span>Leetcode</span><br/> 2.5star (300+ ques)  <a target="_blank" href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-                    <li><span>GFG</span><br/>(300+) points</li>
+                    <li><span>Leetcode</span><br/> (350+ ques)  <a target="_blank" style={{color:"red"}} href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                    <li><span>GFG</span><br/>(200+ ques)</li>
                     <li><span>Hackerrank</span><br/> 4star(c++)</li>
 
                   </ul>

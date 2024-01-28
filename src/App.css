@@ -1,28 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;1,300&display=swap');
+
 *{
   padding: 0;
   margin: 0;
+  font-family: figtree;
 }
 
 html{
   scroll-behavior:smooth;
 }
 body{
-  background-image: linear-gradient(to right top, #3c3846, #514e59, #66646c, #7d7c80, #949494);
+  /* background-image: linear-gradient(to right top, #3c3846, #514e59, #66646c, #7d7c80, #949494); */
   /* background-image: linear-gradient(to right top, #a170c8, rgb(219, 202, 219)); */
+  background-color: #151515;
+
 
 }
 .section1{
   width: 100%;
+  box-sizing: border-box;
+
   /* height: 100vh; */
 }
-.container{
+.navContainer{
     padding: 0.5rem 10%;
     display: flex;
+    width: 100%;
+    box-sizing: border-box;
     justify-content: space-between;
+    position: fixed;
+    z-index: 20;
+    background-color: #151515;
+    opacity: 0.8;
+    overflow: hidden;
 
 }
 .nav{
   width: 100%;
+  box-sizing: border-box;
+
+
+
 }
 .nav .fa-xmark{
    display: none;
@@ -72,14 +90,15 @@ body{
 }
 
 .info-container{
-  padding: 4rem 10%;
+  padding: 8rem 10%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
 }
 .info{
   font-size:1.4rem ;
-  width: 50%;
+  width: 70%;
+  color: #fff;
 }
 .info p{
   width:10rem;
@@ -98,7 +117,7 @@ body{
    top:0.2rem;
    left:0;
    border-left: 3px solid greenyellow;
-   background: #79797a;
+   background: #151515;
    animation: anim 6s steps(12) infinite;
 }
 
@@ -150,12 +169,13 @@ body{
 
 
 .about_me{
-  width: 65%;
+  width: 75%;
   font-size: 10px;
+  box-sizing: border-box;
   
 
   margin: auto;
-  background-color: #919191;
+  background-color: #252525;
   box-shadow:-30px 30px 25px 0 rgba(0,0,0,0.3) ;
   padding: 2rem 2rem;
   border-radius: 1rem;
@@ -164,6 +184,8 @@ body{
 .about_me h1{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.7;
 }
 .about_me #para{
   color: hsl(0, 0%, 100%);
@@ -181,6 +203,7 @@ body{
   font-weight: 500;
   cursor: pointer;
   position:relative;
+  color: #fff;
 }
 .tab-links::after{
   content: '';

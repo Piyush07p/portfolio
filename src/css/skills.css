@@ -26,9 +26,9 @@
 } */
 .col{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    
     color: #fff;
     padding: 4rem 0rem;
     
@@ -36,8 +36,8 @@
 
 }
 .row1{
-    width: 18rem;
-    height: 12rem;
+    /* width: 18rem; */
+    height: 14rem;
     margin: 3rem 2rem;
     cursor: pointer;
     perspective: 1000px;
@@ -105,7 +105,7 @@
     inset: 4px;
     /* border: 2px solid #25252b ;  */
      border-radius: 1rem; 
-    background-color: #585858;
+    background-color: #282828;
     z-index: -1;
 }
 

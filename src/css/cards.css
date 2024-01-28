@@ -36,10 +36,11 @@
   }
   
   .card_container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 1rem;
+    place-items: center;
   }
 
 .cards{
@@ -52,10 +53,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background:rgb(133, 133, 133) ;
+     background:#282828;
      border-radius: 0.6rem;
-     width: 18rem;
+     /* width: 18rem; */
      height: 12rem;
+
     
 }
 .card-img{
