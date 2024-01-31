@@ -7,12 +7,7 @@ import React,{useEffect,useState} from "react";
 
 function Skills(){
 
-    useEffect(() => {
-        AOS.init({
-            offset:300,
-            duration:1000,
-        });
-      }, [])
+    
       const[skill,setSkill]=useState(skdata.skills);
 
     return(
@@ -34,11 +29,24 @@ function Skills(){
                                                </div>
                                                <div className="card-back">
                                                    <ul>
-                                                       <li>{elem.arr[0]}</li>
-                                                       <li>{elem.arr[1]}</li>
-                                                       <li>{elem.arr[2]}</li>
-                                                       <li>{elem.arr[3]}</li>
-                                                       <li>{elem.arr[4]}</li>
+                                                       <li>
+                                                        <img src={elem.arr[0]}/>
+                                                       </li>
+                                                       <li>
+                                                       <img src={elem.arr[1]}/>
+                                                      </li>
+                                                       <li>
+                                                         <img src={elem.arr[2]}/>
+                                                       </li>
+                                                       <li>
+                                                         <img src={elem.arr[3]}/>
+                                                       </li>
+                                                       <li>
+                                                         <img src={elem.arr[4]}/>
+                                                       </li>
+                                                       <li>
+                                                         <img src={elem.arr[5]}/>
+                                                       </li>
                                                    </ul>
                                                </div>
                                            </div>

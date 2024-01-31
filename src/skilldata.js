@@ -4,32 +4,33 @@
             id:1,
             title:'Programming languages',
             img:'/images/codelogo.jpg',
-            arr:["c","c++","python"]
+            arr:["./images/c-logo.png","./images/cpp-logo.png","./images/python-logo.png"],
+
         },
         {
             id:2,
             title:'Web technology',
             img:'/images/weblogo.png',
-            arr:["Html","Css","Javascript","Node.js","Express.js"]
+            arr:["./images/html-logo.png","./images/css-logo.png","./images/js-logo.png","./images/node-logo.png","./images/exp-logo.png","./images/ts-logo.png"]
         },
         {
             id:3,
             title:'Database',
             img:'/images/dblogo.jpg',
-            arr:["Mysql","Oracle 10g","Mongodb"]
+            arr:["./images/sql-logo.png","./images/mongodb-logo.png"]
         },
       
         {
             id:4,
             title:'Library & Framework',
             img:'/images/react.png',
-            arr:["React.js","Tailwind css","Bootstrap"]
+            arr:["./images/react.png","./images/tailwind-logo.png","./images/nextjs-logo.png"]
         },
         {
             id:5,
             title:'Tools',
             img:'/images/git.png',
-            arr:["Git","Vscode","Linux","Figma"]
+            arr:["./images/github-logo.png","./images/vscode-logo.png","./images/linuxx-logo.png","./images/figma-logo.png"]
         }
      
     ]

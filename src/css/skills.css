@@ -125,6 +125,10 @@
     border:3px solid greenyellow;
     border-radius: 1rem;
 }
+.card-back ul{
+    display: flex;
+    flex-wrap: wrap;
+}
 .card-back ul li{
     /* border:1px solid greenyellow; */
     margin:1px;
@@ -132,7 +136,11 @@
     padding: 0 1rem;
     font-weight: 500;
     color: #fff;
+    
 
+}
+.card-back ul li img{
+    width: 3rem;
 }
 .row1:hover .inner-box{
     transform: rotateX(-180deg);

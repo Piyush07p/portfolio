@@ -1,7 +1,7 @@
 
 import './App.css';
-import React,{useState} from 'react';
-
+import React,{useState,useEffect} from 'react';
+import AOS from 'aos'
 function App() {
 
   const[sidebar,setsidebar]=useState(false)
@@ -42,6 +42,13 @@ function App() {
     typer()
     setInterval(typer,12000)
 
+    useEffect(() => {
+      AOS.init({
+          offset:300,
+          duration:1000,
+      });
+    }, [])
+
   return (
 
     <section id="section1" className="section1">
@@ -77,7 +84,7 @@ function App() {
         </div>
         </div>
       </div>
-      <div className="about_me">
+      <div  className="about_me">
         <h1>About Me</h1>
         <p id="para"> Hi, I'm Piyush patel currently persuing B.tech in computer science engineering 
           branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
