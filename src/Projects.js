@@ -14,6 +14,9 @@ function Project(){
                     <Proj  h1="Brainer" img="images/brain_logo.avif" para="Brainer is a platform which contains multiple games 
                     helpful in brain training through memorization, visualization etc. " link="https://brain-games007.netlify.app/" />
 
+                    <Proj h1="Task manager" img="images/doc_maker.jpeg" para="Task manager full-stack next-js website helpful in managing and trakcking daily tasks
+                    " link="https://taskmanager7.vercel.app/" />
+
                     <Proj h1="Document-maker" img="images/doc_maker.jpeg" para="Document maker is a website helpful in making the templates of the resume ,applications etc.
                     " link="https://document-maker.netlify.app/" />
 
