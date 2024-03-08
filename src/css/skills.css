@@ -71,7 +71,7 @@
     color: #fff;
     border-radius: 1rem;
     background: repeating-conic-gradient(from var(--a) ,greenyellow 0%, greenyellow 5%,transparent 5%,transparent 40%,greenyellow 50%);
-    animation: animate 4s linear infinite;
+    animation: animate 5s linear infinite;
     z-index: 100;
 }
 @property --a{
@@ -93,7 +93,7 @@
     background: repeating-conic-gradient(from var(--a) ,rgb(155, 252, 10) 0%, rgb(150, 252, 10) 5%,transparent 5%,transparent 40%,rgb(154, 253, 4) 50%);
     width: 100%;
     height: 100%;
-    animation: animate 4s linear infinite;
+    animation: animate 5s linear infinite;
     animation-delay:-1s;
     border-radius: 1rem;
     z-index: -2;
@@ -119,7 +119,7 @@
 
 }
 .card-back{
-    background-color: rgba(0, 0, 0,0.2);
+    background-color: #303030;
     transform: rotateX(180deg);
     color: black;
     border:3px solid greenyellow;

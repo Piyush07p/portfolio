@@ -35,7 +35,7 @@ function App() {
           Text.textContent="Student"
       },0)
       setTimeout(()=>{
-          Text.textContent="Web developer"
+          Text.textContent="Frontend developer"
       },6000)
       
     }
@@ -47,6 +47,7 @@ function App() {
           offset:300,
           duration:1000,
       });
+      typer()
     }, [])
 
   return (
@@ -75,7 +76,9 @@ function App() {
          <p> <span className='homePara'>web developer</span></p>
           <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel student of CSE</h1>
 
-          <button>Download CV</button>
+          <button>
+            <a style={{color:"#fff", textDecoration:"none"}} href='#section5'>Contact</a>
+          </button>
     
         </div>
         <div>
@@ -102,7 +105,7 @@ function App() {
                     <li><span>Class 10th (Nachiketa H.S. school)</span><br/>percentage=88.8%</li>
                     <li><span>Class 12th (Nachiketa H.S. school)</span><br/>percentage=90.6%</li>
 
-                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.74</li>
+                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.71</li>
                   </ul>
 
           </div>
