@@ -6,7 +6,7 @@ function Project(){
             <section id="section4"  >
                 <h1 className="sec4-h1">My projects</h1>
                 <div className="sec4-div">
-                    <Proj h1="Prepquizz" img="images/preplogo.PNG" link="https://prepquizz.cyclic.app"
+                    <Proj h1="Prepquizz" img="images/preplogo.PNG" link="http://35.154.104.154:5500"
                     para=" Prepquizz is placement preperation platform for college students
                     focussing on providing the placement related mcq quizes on various
                     subjects like reasoning, aptitude, coding etc."
