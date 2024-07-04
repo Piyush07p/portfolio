@@ -105,13 +105,13 @@ function App() {
                     <li><span>Class 10th (Nachiketa H.S. school)</span><br/>percentage=88.8%</li>
                     <li><span>Class 12th (Nachiketa H.S. school)</span><br/>percentage=90.6%</li>
 
-                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.71</li>
+                    <li><span>Graduation- B.tech CSE (2020-24)</span><br/>current cgpa=8.65</li>
                   </ul>
 
           </div>
           <div className="tab-contents" id="achievements">
                   <ul>
-                    <li><span>Leetcode</span><br/> (350+ ques)  <a target="_blank" style={{color:"red"}} href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                    <li><span>Leetcode</span><br/> (400+ ques)  <a target="_blank" style={{color:"red"}} href="https://leetcode.com/Piyush07p/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
                     <li><span>GFG</span><br/>(200+ ques)</li>
                     <li><span>Hackerrank</span><br/> 4star(c++)</li>
 
