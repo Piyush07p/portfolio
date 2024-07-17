@@ -25,7 +25,7 @@ function Project(){
 
                     <Proj h1="Photography website" img="images/srlogo.png" para="srphotography is a freelancing project developed using react.js for
                      a client to showcase their photographic work and services.
-                    " link="https://srphotography.netlify.app/" 
+                    " link="https://sr-photography.onrender.com/" 
                     />
 
                     <Proj h1="Box-Shadow-generator" img="images/box_shad.jfif" para="Box shadow generator
