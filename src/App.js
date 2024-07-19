@@ -89,11 +89,7 @@ function App() {
       </div>
       <div  className="about_me">
         <h1>About Me</h1>
-        <p id="para"> Hi, I'm Piyush patel currently persuing B.tech in computer science engineering 
-          branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur.
-          I am a web dev enthusiast with a tremendous knowledge of frontend development
-         . My goal is to apply my skills and knowledge to create innovative
-           solutions that address real-world challenges and improve the lives of individuals and communities.
+        <p id="para">Hi, I'm Piyush patel and I have done B.tech (2020-24)  in computer science engineering branch from Gyan Ganga Institute of Technology and Sciences, Jabalpur. I am a web dev enthusiast with a  knowledge of frontend development (html, css, javascript, react-js, next-js) and also possess foundational knowledge in backend development (nodejs, expressjs, mongodb). My goal is to apply my skills and knowledge to create innovative solutions that address real-world challenges and improve the lives of individuals and communities.
 
         </p>
           <div className="tab-titles ">
