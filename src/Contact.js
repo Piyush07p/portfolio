@@ -1,4 +1,5 @@
 import './css/contact.css';
+import { SiFiverr } from "react-icons/si";
 
 export default function Contact(){
     return(
@@ -33,6 +34,9 @@ export default function Contact(){
                                 </a>
                                 <a target="_blank" href="https://www.github.com/Piyush07p">
                                     <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a target="_blank" href="http://www.fiverr.com/s/wkwmZXB">
+                                    <SiFiverr style={{color:"#fff", fontSize:"2rem"}}/>
                                 </a>
                                 </div>
                               

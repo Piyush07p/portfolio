@@ -12,6 +12,25 @@ function Cert() {
                    setItems(updateitem)
 
           }
+
+          const [visible,setVisible]=useState(4)
+          const [sizeFlag,setSizeflag]=useState(true)
+          const expandDiv=()=>{
+              
+            if(sizeFlag){
+              setVisible(prev=>prev+4)
+            
+            }else{
+              setVisible(prev=>prev-4)
+            }
+            if(visible>=items.length-4){
+                setSizeflag(false)
+            }
+            else if(visible==8){
+              setSizeflag(true)
+            }
+
+          }
       
         return (
                 <section data-aos="fade-up" id="section3">
@@ -27,7 +46,7 @@ function Cert() {
                         </div>
          <div data-aos="fade-up" className="card_container">
             {
-                items.map((elem) => {
+                items.slice(0,visible).map((elem) => {
                  const { id,img, title } = elem;
             return (
                    <>
@@ -39,7 +58,7 @@ function Cert() {
                     </div>
                       <h1>{elem.title}</h1>
                       <p>{elem.desc}</p>
-                      <a target="_blank" href={elem.link}> <button>visit</button></a>
+                      <a target="_blank" href={elem.link}> <button>Visit</button></a>
                   </div>
                 </>
                  )
@@ -48,6 +67,9 @@ function Cert() {
 
 
          </div>
+         <main className='expandBtn'>
+            <button onClick={expandDiv}>{(sizeFlag) ? "See More" : "See Less"}</button>
+          </main>
 
  </section>
         );

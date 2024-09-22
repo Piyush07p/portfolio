@@ -28,7 +28,7 @@ function Skills(){
                                                    </center>
                                                </div>
                                                <div className="card-back">
-                                                   <ul>
+                                                   <ul className='skill_ul'>
                                                        <li>
                                                         <img src={elem.arr[0]}/>
                                                        </li>

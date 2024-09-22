@@ -74,7 +74,7 @@ function App() {
       <div className="info-container">
         <div className="info">
          <p> <span className='homePara'>web developer</span></p>
-          <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel student of CSE</h1>
+          <h1>Hello I'm <span className="span-name">Piyush</span><br/>Patel, a web developer</h1>
 
           <button>
             <a style={{color:"#fff", textDecoration:"none"}} href='#section5'>Contact</a>
